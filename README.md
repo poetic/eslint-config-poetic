@@ -2,7 +2,8 @@
 
 This package supplies an `eslint` configuration for working on Meteor apps.
 It likes long walks on the beach, ES6 functionality (including modules!), 
-React components (now in JSX!), and most anything else under the sun.
+React components (now in JSX!), and most anything else needed to develop in
+Meteor.
 
 It uses [AirBnB's configuration](https://github.com/airbnb/javascript) as a
  base, and extends it with some Meteor-specific options.

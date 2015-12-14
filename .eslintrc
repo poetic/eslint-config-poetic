@@ -1,6 +1,6 @@
 {
   // Following AirBnB's lead
-  "extends": "airbnb"
+  "extends": "airbnb",
 
   // To configure global variables inside of a configuration file, use the
   // globals key and indicate the global variables you want to use. Set each
