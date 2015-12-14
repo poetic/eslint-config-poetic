@@ -1,7 +1,7 @@
-#Poetic Meteor Style
+# Poetic Meteor Style
 
 This package supplies an `eslint` configuration for working on Meteor apps.
-It likes long walks on the beach, ES6 functionality (including modules!), 
+It likes long walks on the beach, ES6 functionality (including modules!),
 React components (now in JSX!), and most anything else needed to develop in
 Meteor.
 
@@ -22,5 +22,7 @@ If you would like to use `eslint` in `vim`, add the following line to your
  if they exist.*
 
 ## Usage
-Add the `.eslintrc` in this repo to your app directory. To run `eslint` from
-the command line, try `eslint .` from your app directory.
+Add the `.eslintrc` in this repo to your app directory. To run `eslint` on your
+entire project, try this from your app directory:
+
+`eslint --ext '.js, .jsx' .`
