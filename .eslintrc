@@ -49,6 +49,7 @@
     "Router": false,          // iron-router
     "FlowRouter": false,      // flow-router
     "React": false,           // React
+    "ReactLayout": false,     // ReactLayout
 
     // App packages
     "SimpleSchema": false,
