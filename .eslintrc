@@ -48,6 +48,7 @@
     "$": false,               // jQuery
     "Router": false,          // iron-router
     "FlowRouter": false,      // flow-router
+    "React": false,           // React
 
     // App packages
     "SimpleSchema": false,
