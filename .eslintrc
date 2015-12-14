@@ -52,6 +52,7 @@
 
     // App packages
     "SimpleSchema": false,
+    "Roles": false,
 
     // Collections
   }
