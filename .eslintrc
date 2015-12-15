@@ -2,6 +2,13 @@
   // Following AirBnB's lead
   "extends": "airbnb",
 
+  rules: {
+    // console.log is important for development, so let's not
+    // throw errors for it.
+    "no-console":  0,
+    "no-debugger": 0,
+  },
+
   // To configure global variables inside of a configuration file, use the
   // globals key and indicate the global variables you want to use. Set each
   // global variable name equal to true to allow the variable to be overwritten
