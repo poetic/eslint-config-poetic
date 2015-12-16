@@ -11,7 +11,7 @@ It uses [AirBnB's configuration](https://github.com/airbnb/javascript) as a
 ## Installation
 Run the following command to install the bits of `eslint` that we need:
 
-`npm install --save-dev eslint-config-airbnb eslint-plugin-react eslint`
+`npm install -g eslint-config-airbnb eslint-plugin-react eslint`
 
 If you would like to use `eslint` in `vim`, add the following line to your
 `.vimrc`:
