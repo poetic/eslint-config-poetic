@@ -63,6 +63,7 @@
     "Roles": false,
 
     // Collections
+    "Users": true,
   }
 }
 

@@ -30,7 +30,7 @@ following line to your `.vimrc`:
 
 ### Common Operations
 
-As you develop your Meteor package, you're going to be introducing globals:
+As you develop in Meteor, you're going to be introducing globals:
 Third party-packages, collection references, etc. `eslint` will complain that
 these variables are undefined, which generally is a good thing; This keeps us
 from attempting to access a variable that hasn't already been defined. With
