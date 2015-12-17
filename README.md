@@ -13,16 +13,17 @@ Run the following command to install the bits of `eslint` that we need:
 
 `npm install -g eslint-config-airbnb eslint-plugin-react eslint`
 
-If you would like to use `eslint` in `vim`, add the following line to your
-`.vimrc`:
+Then, add the `.eslintrc` and `.eslintignore` files to your app directory.
+
+## Usage
+To run `eslint` from the command line, try this from your app directory:
+
+`eslint --ext '.js, .jsx' .`
+
+If you would like to use `eslint` in `vim`, install Syntastic and add the
+following line to your `.vimrc`:
 
 `let g:syntastic_javascript_checkers=['eslint']`
 
 *Be sure to remove any other lines that set `syntastic_javascript_checkers`,
  if they exist.*
-
-## Usage
-Add `.eslintrc` and `.eslintignore` files to your app directory. To run
-`eslint` on your entire project, try this from your app directory:
-
-`eslint --ext '.js, .jsx' .`
