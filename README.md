@@ -22,7 +22,7 @@ If you would like to use `eslint` in `vim`, add the following line to your
  if they exist.*
 
 ## Usage
-Add the `.eslintrc` in this repo to your app directory. To run `eslint` on your
-entire project, try this from your app directory:
+Add `.eslintrc` and `.eslintignore` files to your app directory. To run
+`eslint` on your entire project, try this from your app directory:
 
 `eslint --ext '.js, .jsx' .`
