@@ -27,3 +27,15 @@ following line to your `.vimrc`:
 
 *Be sure to remove any other lines that set `syntastic_javascript_checkers`,
  if they exist.*
+
+### Common Operations
+
+As you develop your Meteor package, you're going to be introducing globals:
+Third party-packages, collection references, etc. `eslint` will complain that
+these variables are undefined, which generally is a good thing; This keeps us
+from attempting to access a variable that hasn't already been defined. With
+globals, however, the variable has been defined elsewhere, and so we need to
+tell `eslint` that it's cool to use them as such.
+
+To do so, add a string representing the global to your project's `.eslintrc`'s
+`global` object. Check out the file for some good examples of usage and syntax.
