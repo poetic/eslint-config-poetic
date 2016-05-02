@@ -11,14 +11,14 @@ It uses [AirBnB's configuration](https://github.com/airbnb/javascript) as a
 ## Installation
 Run the following command to install the bits of `eslint` that we need:
 
-`npm install -g eslint-config-airbnb eslint-plugin-react eslint`
+`npm install -g eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react`
 
 Then, add the `.eslintrc` and `.eslintignore` files to your app directory.
 
 ## Usage
-To run `eslint` from the command line, try this from your app directory:
+To run `eslint` from the command line, try this from your app root directory:
 
-`eslint --ext '.js, .jsx' .`
+`eslint --ext .js,.jsx .`
 
 If you would like to use `eslint` in `vim`, install Syntastic and add the
 following line to your `.vimrc`:
