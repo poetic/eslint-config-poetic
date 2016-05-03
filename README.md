@@ -20,10 +20,14 @@ To run `eslint` from the command line, try this from your app root directory:
 
 `eslint --ext .js,.jsx .`
 
-If you would like to use `eslint` in `vim`, install Syntastic and add the
-following line to your `.vimrc`:
 
-`let g:syntastic_javascript_checkers=['eslint']`
+### Vim Integration
+Install the Syntastic plugin, then add the following to your .vimrc:
+
+```
+let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_javascript_eslint_args="--ext .js,.jsx"
+```
 
 *Be sure to remove any other lines that set `syntastic_javascript_checkers`,
  if they exist.*
