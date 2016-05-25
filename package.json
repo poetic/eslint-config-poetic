@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-poetic",
+  "version": "1.0.0",
+  "description": "This package supplies an eslint configuration for working on Meteor apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poetic/poetic-meteor-style.git"
+  },
+  "keywords": [
+    "meteor",
+    "style",
+    "airbnb",
+    "eslint",
+    "poetic"
+  ],
+  "author": "codengamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poetic/poetic-meteor-style/issues"
+  },
+  "homepage": "https://github.com/poetic/poetic-meteor-style#readme",
+  "dependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "8.0.0",
+    "eslint-plugin-import": "^1.5.0",
+    "eslint-plugin-jsx-a11y": "^1.0.2",
+    "eslint-plugin-react": "^5.0.1"
+  }
+}

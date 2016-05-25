@@ -1,6 +1,10 @@
-{
+module.exports = {
   // Following AirBnB's lead
   "extends": "airbnb",
+
+  parserOptions: {
+    ecmaVersion: 6,
+  },
 
   // And overriding where necessary
   "rules": {
@@ -88,4 +92,4 @@
     // Collections
     // PUT YOUR APP'S COLLECTION GLOBALS HERE
   }
-}
+};
