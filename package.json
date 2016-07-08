@@ -1,10 +1,9 @@
 {
   "name": "eslint-config-poetic",
-  "version": "1.0.0",
-  "description": "This package supplies an eslint configuration for working on Meteor apps.",
+  "description": "Meteor project linter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,7 @@
     "poetic"
   ],
   "author": "codengamer",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/poetic/poetic-meteor-style/issues"
   },
