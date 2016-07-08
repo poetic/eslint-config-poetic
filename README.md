@@ -11,8 +11,8 @@ It uses [AirBnB's configuration](https://github.com/airbnb/javascript) as a
 ## Installation
 Run the following command to install the bits of `eslint` that we need:
 
-1) npm install --save eslint-config-poetic
-2) add "extends": "poetic" to your .eslintrc
+1. `npm install --save eslint-config-poetic`
+2. add `"extends": "poetic"` to your .eslintrc
 
 ## Usage
 To run `eslint` from the command line, try this from your app root directory:
