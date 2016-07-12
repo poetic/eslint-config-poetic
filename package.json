@@ -3,11 +3,12 @@
   "description": "Meteor project linter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/poetic/poetic-meteor-style.git"
+    "url": "https://github.com/poetic/poetic-meteor-style.git"
   },
   "keywords": [
     "meteor",
@@ -28,5 +29,8 @@
     "eslint-plugin-import": "^1.5.0",
     "eslint-plugin-jsx-a11y": "^1.0.2",
     "eslint-plugin-react": "^5.0.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
   }
 }
