@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/poetic/poetic-meteor-style.git"
+    "url": "https://github.com/poetic/eslint-config-poetic.git"
   },
   "keywords": [
     "style",
@@ -19,9 +19,9 @@
   "author": "codengamer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/poetic/poetic-meteor-style/issues"
+    "url": "https://github.com/poetic/eslint-config-poetic/issues"
   },
-  "homepage": "https://github.com/poetic/poetic-meteor-style#readme",
+  "homepage": "https://github.com/poetic/eslint-config-poetic#readme",
   "dependencies": {
     "eslint": "^2.9.0",
     "eslint-config-airbnb": "8.0.0",
