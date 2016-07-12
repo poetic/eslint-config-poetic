@@ -16,7 +16,12 @@ This linter package is based on [AirBnB's configuration](https://github.com/airb
 ## Installation
 
 1. `npm install --save-dev eslint-config-poetic`
-2. add `"extends": "poetic"` to your .eslintrc
+2. add .eslintrc with the following content:
+```
+{
+  "extends": "poetic"
+}
+```
 
 ## Usage
 To run `eslint` from the command line, try this from your app root directory:
