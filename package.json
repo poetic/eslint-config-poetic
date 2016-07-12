@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-poetic",
-  "description": "Meteor project linter",
+  "description": "Poetic's ESlint config based on Airbnb's",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
@@ -11,7 +11,6 @@
     "url": "https://github.com/poetic/poetic-meteor-style.git"
   },
   "keywords": [
-    "meteor",
     "style",
     "airbnb",
     "eslint",
