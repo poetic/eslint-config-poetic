@@ -1,4 +1,4 @@
-# Poetic Meteor Style
+# eslint-config-poetic
 
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
