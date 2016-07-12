@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-poetic",
   "description": "Poetic's ESlint config based on Airbnb's",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
